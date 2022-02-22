@@ -1,0 +1,28 @@
+{
+  "frame": "//iframe[@src='https://www.beinconnect.com.tr/netmera_worker.html#apiKey=NG4bWesvwRH7Hv7fG0eWbgfh3wJjjYEMQBzg89Xh1pwFlGeIifH4AZEX8X77YrWR&origin=https%3A%2F%2Fwww.beinconnect.com.tr&wSrc=%2F%2Fcdn.netmera-web.com%2Fworker_chrome.js%3Fv%3D3.0.64&cb_msg=worker_ready']",
+  "subscribe": "a[name='Subscribe']",
+  "subscription period": "//li[@role='presentation'][normalize-space()='ONE MONTH']",
+  "free trial": "//a[@class='ap-sgbp-btn border-none add-card'][normalize-space()='START FREE TRIAL']",
+  "firstName" : "input[name=\"FirstName\"]",
+  "lastName": "input[name=\"LastName\"]",
+  "emailOrPhone" : "//input[@name='EmailOrPhone']",
+  "password": "input#password",
+  "checkbox": "div.custom-checkbox",
+  "createAccount" : "input.border-none.bc-subscribe",
+  "infoClose": "a#close",
+  "payNow": "//div[@class='form-group position-r show']",
+  "totalCharge": "(//td[@class=\"ncoltxtr\"])[2]/small",
+  "cardHoldersName" : "input#Ecom_Payment_Card_Name",
+  "cardNumber": "input#Ecom_Payment_Card_Number",
+  "expiryMont": "select#Ecom_Payment_Card_ExpDate_Month",
+  "expiryMonthEnter": "#Ecom_Payment_Card_ExpDate_Month > option:nth-child(4)",
+  "expiryYears": "select#Ecom_Payment_Card_ExpDate_Year",
+  "expiryYearsEnter": "#Ecom_Payment_Card_ExpDate_Year > option:nth-child(5)",
+  "cardVerifciationCode": "input#Ecom_Payment_Card_Verification",
+  "paymentConfirmButton": "//td[@colspan='2']//input[@name='payment']",
+  "monthlyPass":"label#lblTotalAmount>strong",
+  "once_price": "//h3[text()='MONTHLY PASS']/following-sibling::h1"
+
+
+
+}
