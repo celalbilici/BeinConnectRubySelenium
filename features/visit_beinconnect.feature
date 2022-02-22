@@ -1,9 +1,9 @@
 
 
 
-  Feature: open beinconnect
+  Feature: beinconnect
 
-    Scenario: bein connect sign up and failed payment scenario
+    Scenario: bein connect sign up and failed payment
 
       And If I save 5 characters long alphabetic text as mail
       And If I save "1.00 THB" as expectTotalCharge
