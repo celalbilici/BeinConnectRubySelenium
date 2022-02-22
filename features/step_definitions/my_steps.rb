@@ -8,9 +8,7 @@ end
 
   Given(/^visit "([^"]*)" webpage$/) do |url|
 
- # visit(url)/
 $driver.navigate.to(url)
-# page.should have_content("ana-sayfa")
 end
 
 
