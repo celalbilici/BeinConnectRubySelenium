@@ -3,7 +3,7 @@
 
   Feature: open beinconnect
 
-    Scenario: open beinconnect new
+    Scenario: bein connect sign up and failed payment scenario
 
       And If I save 5 characters long alphabetic text as mail
       And If I save "1.00 THB" as expectTotalCharge
@@ -39,7 +39,7 @@
       And save alert message as mesage
       And comfirm alert  message
 
-      And debug
+    
 
 
 
